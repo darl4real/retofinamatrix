@@ -1,0 +1,20 @@
+{
+  "name": "retofinamatrix",
+  "description": "",
+  "main": "",
+  "authors": [
+    "darl4real <darl4real@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/darl4real/retofinamatrix",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
