@@ -1,12 +1,12 @@
 {
-  "name": "retofinamatrix",
+  "name": "finametrix-project",
   "description": "",
   "main": "",
   "authors": [
-    "darl4real <darl4real@hotmail.com>"
+    "Edu Alcover <alcover.edu@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/darl4real/retofinamatrix",
+  "homepage": "https://github.com/educover/finametrix_project",
   "ignore": [
     "**/.*",
     "node_modules",
