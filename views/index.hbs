@@ -1,14 +1,14 @@
 <div class="container">
-      <div class="panel panel-default">
-        <div class="panel-heading"><strong>Upload Files</strong> <small>Bootstrap files upload</small></div>
-        <div class="panel-body">
+      <h1 class="panel panel-default">
+        <div class="panel-heading"><strong>Finametrix Project</strong> <small>Upload Files</small></div>
+        <div class="panel-body"></h1>
 
-          <!-- Standar Form -->
+          <!-- Standard Form -->
           <h4>Select files from your computer</h4>
-          <form action="" method="post" enctype="multipart/form-data" id="js-upload-form">
+          <form action="/upload" method="post" enctype="multipart/form-data" id="js-upload-form">
             <div class="form-inline">
               <div class="form-group">
-                <input type="file" accept=".csv" name="files" id="js-upload-files">
+                <input type="file" accept=".csv" name="file" id="js-upload-files">
               </div>
               <button type="submit" class="btn btn-sm btn-primary" id="js-upload-submit">Upload files</button>
             </div>
@@ -17,7 +17,7 @@
           <!-- Drop Zone -->
           <h4>Or drag and drop files below</h4>
           <div class="upload-drop-zone" id="drop-zone">
-            Just drag and drop files here
+            
           </div>
 
           <!-- Progress Bar -->
@@ -31,8 +31,7 @@
           <div class="js-upload-finished">
             <h3>Processed files</h3>
             <div class="list-group">
-              <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-01.jpg</a>
-              <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span>image-02.jpg</a>
+              <a href="#" class="list-group-item list-group-item-success"><span class="badge alert-success pull-right">Success</span></a>
             </div>
           </div>
         </div>

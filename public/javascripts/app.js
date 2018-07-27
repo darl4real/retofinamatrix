@@ -1,4 +1,5 @@
-+ function($) {
++
+/*function($) {
     'use strict';
 
     // UPLOAD CLASS DEFINITION
@@ -37,8 +38,9 @@
 
 }(jQuery);
 
+
 var comprobar = function(e) {
     console.log(e.target.value)
 }
 
-$("input[name='files']").change(comprobar);
+$("input[name='files']").change(comprobar);*/

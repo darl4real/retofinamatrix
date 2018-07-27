@@ -1,5 +1,5 @@
-const Expres = require('express');
-const Router = Expres.Router();
+const Express = require('express');
+const Router = Express.Router();
 const IndexApiController = require('../controller/api/indexApiController');
 
 //Route API
