@@ -48,9 +48,7 @@ app.use(function(err, req, res, next) {
     res.render('error');
 });
 
-<<<<<<< HEAD
-=======
-=======
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
@@ -91,6 +89,6 @@ app.use(function(err, req, res, next) {
     res.render('error');
 });
 
->>>>>>> d998fc7139e6200c3cfb7988def4718d89f7e94e
->>>>>>> 2f3bcf1b9beb370b54d02bed858903948d88a899
+
+
 module.exports = app;
