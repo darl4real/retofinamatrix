@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2f3bcf1b9beb370b54d02bed858903948d88a899
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
